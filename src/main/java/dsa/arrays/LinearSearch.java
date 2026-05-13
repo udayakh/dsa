@@ -1,8 +1,5 @@
 package dsa.arrays;
 
-import java.util.Arrays;
-import java.util.Optional;
-
 /*
  * PROBLEM: Linear Search
  * -----------------------
@@ -27,10 +24,12 @@ public class LinearSearch {
     // Time: O(n) | Space: O(1)
     public static int searchBrute(int[] arr, int target) {
         // TODO
-        int result=-1;
+        int result = -1;
+        boolean found = false;
         for (int i = 0; i < arr.length; i++) {
-            if (arr[i]==target) {
-                result=i;
+            if (arr[i] == target && !found) {
+                result = i;
+                found = true;
             }
         }
         return result;
@@ -44,7 +43,7 @@ public class LinearSearch {
         // TODO
         for (int i = 0; i < arr.length; i++) {
             if (arr[i] == target) {
-                return i; // store it, but keep going
+                return i;
             }
         }
         return -1;
