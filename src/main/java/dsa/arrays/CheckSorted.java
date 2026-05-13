@@ -24,7 +24,17 @@ public class CheckSorted {
     // Time: O(n²)  |  Space: O(1)
     public static boolean isSortedBrute(int[] arr) {
         // TODO
-        return false;
+        int n=arr.length;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if(i<j){
+                    if(arr[i]>arr[j]){
+                        return false;
+                    }
+                }
+            }
+        }
+        return true;
     }
 
     // APPROACH 2 — Optimized
@@ -33,7 +43,12 @@ public class CheckSorted {
     // Time: O(n)  |  Space: O(1)
     public static boolean isSortedOptimized(int[] arr) {
         // TODO
-        return false;
+        for (int i = 0; i < arr.length-1; i++) {
+            if(arr[i]>arr[i+1]){
+                return false;
+            }
+        }
+        return true;
     }
 
     public static void main(String[] args) {
