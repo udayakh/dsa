@@ -15,6 +15,8 @@
 | 3 | ReverseArray | ✅ Done | ✅ Done | 2026-05-14 |
 | 4 | CheckSorted | ✅ Done | ✅ Done | 2026-05-14 |
 | 5 | SecondMaximum | ✅ Done | ✅ Done | 2026-05-15 |
+| 6 | TwoSum | ✅ Done | ✅ Done | 2026-05-16 |
+| 7 | MoveZeros | ✅ Done | ✅ Done | 2026-05-16 |
 
 ### Strings
 _Not started yet_
@@ -44,8 +46,8 @@ _Not started yet_
 - [x] Array reversal — extra array vs two-pointer in-place swap
 - [x] Check sorted — nested pairs vs adjacent pairs, `continue` keyword
 - [x] Second maximum — single pass tracking two variables, ternary operator for edge case
-- [ ] Two Sum
-- [ ] Move zeros
+- [x] Two Sum — brute force O(n²) pairs, optimized HashMap complement lookup
+- [x] Move zeros — temp array copy, optimized in-place two pointer
 
 ---
 
@@ -93,3 +95,34 @@ The gap between making a mistake and correcting it is already shrinking within t
 **Overall:**
 Clear improvement from Session 1. Wrote bubble sort from scratch after previously copying it.
 Self-awareness is growing — noticing own mistakes faster.
+
+---
+
+### 2026-05-16 — Session 3
+
+**Problems completed:** TwoSum, MoveZeros
+
+#### TwoSum
+- Correctly described brute force in plain English before coding — good habit forming
+- Got `j = i+1` right after one guiding question — faster than before
+- HashMap approach: reasoned through complement formula (`target - arr[i]`) independently
+- Needed guidance on what to store as key vs value, but applied it correctly once explained
+
+#### MoveZeros
+- Correctly identified the output `[1, 3, 12, 0, 0]` from `[0, 1, 0, 3, 12]` immediately
+- Brute force: initially used `temp[i]` instead of `temp[j]` — same pattern issue as before, but caught faster
+- Optimized: initially added `temp` array (habit from brute force) — removed after one question
+- Declared `j` inside the `for` loop initially, needed reminder to declare it outside for reuse
+
+**Strengths noticed:**
+- Starting to trace problems first before coding — visible improvement from Session 1
+- Complement formula reasoning was mostly independent — growing mathematical intuition
+- Correcting mistakes faster within each problem
+
+**Areas to improve:**
+- `temp[i]` vs `temp[j]` confusion still recurring — needs to become automatic: separate arrays need separate counters
+- Loop variable scope (`j` inside vs outside loop) — think about where a variable is needed before declaring it
+
+**Overall:**
+Best session yet. TwoSum was the cleanest problem solved so far.
+The "trace first, code second" habit is visibly taking hold.
