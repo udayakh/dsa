@@ -17,6 +17,7 @@
 | 5 | SecondMaximum | ✅ Done | ✅ Done | 2026-05-15 |
 | 6 | TwoSum | ✅ Done | ✅ Done | 2026-05-16 |
 | 7 | MoveZeros | ✅ Done | ✅ Done | 2026-05-16 |
+| 8 | RemoveDuplicates | ✅ Done | ✅ Done | 2026-05-16 |
 
 ### Strings
 _Not started yet_
