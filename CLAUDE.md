@@ -31,3 +31,7 @@ Problems are intentionally left as `// TODO` skeletons for the student to implem
 This is a guided DSA learning project. The student is an intermediate Java developer with no prior DSA background. See `PROGRESS.md` for session notes and `progress.md` (git-tracked) for the full tracker.
 
 When creating new problem files, follow the existing skeleton pattern — two approaches with complexity comments, `main()` test cases, and `// TODO` stubs. Do not implement solutions for the student.
+
+## Learning Path
+
+Introduction → Mathematics → Bit Magic → Recursion → **Arrays** → Searching → Sorting → Matrix → Hashing → Strings → Linked List → Stack → Queue → Deque → Tree → Backtracking → Binary Search Tree → Heap → Graph → Greedy → Dynamic Programming → Trie → Disjoint Set

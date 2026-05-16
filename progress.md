@@ -19,22 +19,58 @@
 | 7 | MoveZeros | ✅ Done | ✅ Done | 2026-05-16 |
 | 8 | RemoveDuplicates | ✅ Done | ✅ Done | 2026-05-16 |
 
+### Searching
+_Not started yet_
+
+### Sorting
+_Not started yet_
+
+### Matrix
+_Not started yet_
+
+### Hashing
+_Not started yet_
+
 ### Strings
 _Not started yet_
 
 ### Linked List
 _Not started yet_
 
-### Stacks & Queues
+### Stack
 _Not started yet_
 
-### Trees & BST
+### Queue
 _Not started yet_
 
-### Graphs
+### Deque
+_Not started yet_
+
+### Tree
+_Not started yet_
+
+### Backtracking
+_Not started yet_
+
+### Binary Search Tree
+_Not started yet_
+
+### Heap
+_Not started yet_
+
+### Graph
+_Not started yet_
+
+### Greedy
 _Not started yet_
 
 ### Dynamic Programming
+_Not started yet_
+
+### Trie
+_Not started yet_
+
+### Disjoint Set
 _Not started yet_
 
 ---
