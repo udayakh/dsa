@@ -19,6 +19,7 @@
 | 7 | MoveZeros | ✅ Done | ✅ Done | 2026-05-16 |
 | 8 | RemoveDuplicates | ✅ Done | ✅ Done | 2026-05-16 |
 | 9 | RotateLeft | ✅ Done | ✅ Done | 2026-05-17 |
+| 10 | RotateLeftByK | ✅ Brute Done | ⏳ In Progress | 2026-05-17 |
 
 ### Searching
 _Not started yet_
